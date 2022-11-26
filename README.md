@@ -13,16 +13,22 @@ This repository was created for quiz2 in DADS6005 subject (Topic: PySpark)
 
 ## Quiz2_2
 
-- First effort: Send 2 messages (table1: num_click, table2: Country) in same time.
+Send 2 messages (table1: num_click (1st and 2nd), table2: Country(1st)) in same time.
 
-![image](https://user-images.githubusercontent.com/50355214/204098589-17a4a93f-0b1e-43ea-8ab0-ec6cfea8a192.png)
+- For Example:
+  Time: 2022-11-26 18:32:30  >> data come in as show below
 
-  Then, calculate a total num_click by country
+![image](https://user-images.githubusercontent.com/50355214/204104456-1c7af63e-76ee-4272-97dc-01b16441e4db.png)
 
-![image](https://user-images.githubusercontent.com/50355214/204098600-b262d6b5-a05f-453d-ae24-0a289adf5fff.png)
+  Then, next 5 seconds at Time: 2022-11-26 18:32:35
+  
+![image](https://user-images.githubusercontent.com/50355214/204104538-93b72c2c-7b12-4126-b76d-f5463a9a960b.png)
 
+  the data of these 2 interval periods are calculated and summarize by country as below.
+  
+![image](https://user-images.githubusercontent.com/50355214/204104628-1d9e2524-ae59-4f80-ad3e-7ccd61ae8891.png)
 
-- Second effort: Do it again after 
+** last image is technically illustrated at Time: 2022-11-26 18:32:30.
 
 
 
