@@ -1,7 +1,1 @@
-echo "# DADS6005_PySpark_Quiz2" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/Pongpattt/DADS6005_PySpark_Quiz2.git
-git push -u origin main
+This repository was created for quiz2 in DADS6005 subject (Topic: PySpark)
